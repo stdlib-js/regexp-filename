@@ -57,7 +57,7 @@ tape( 'the main export is a POSIX specific regular expression if on a POSIX plat
 	var main;
 
 	main = proxyquire( './../lib', {
-		'@stdlib/assert/is-windows': false,
+		'@stdlib/assert-is-windows': false,
 		'./main.js': function noop() {}
 	});
 
@@ -69,7 +69,7 @@ tape( 'the main export is a Windows specific regular expression if on a Windows 
 	var main;
 
 	main = proxyquire( './../lib', {
-		'@stdlib/assert/is-windows': true,
+		'@stdlib/assert-is-windows': true,
 		'./main.js': function noop() {}
 	});
 
