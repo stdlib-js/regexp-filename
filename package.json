@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/regexp-filename",
+  "version": "0.0.0",
+  "description": "Return a regular expression to split a filename.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/regexp-filename.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "regex",
+    "regexp",
+    "re",
+    "regular",
+    "expression",
+    "path",
+    "capture",
+    "match",
+    "split",
+    "base",
+    "basename",
+    "dirname",
+    "extname",
+    "ext",
+    "file",
+    "filename",
+    "posix",
+    "windows",
+    "win32"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
