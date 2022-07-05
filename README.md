@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.reFilename;
+})();
 })();
 </script>
 ```
@@ -167,6 +169,7 @@ var parts = reFilename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' ).slice();
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 var RE_FILENAME = reFilename();
 
 // Assuming a POSIX platform...
@@ -204,6 +207,7 @@ parts = reFilename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' ).slice();
     ]
 */
 
+})();
 })();
 </script>
 </body>
@@ -302,13 +306,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [posix]: https://en.wikipedia.org/wiki/POSIX
 
-[@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows/tree/umd
+[@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows/tree/umd/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/regexp/filename-posix]: https://github.com/stdlib-js/regexp-filename-posix/tree/umd
+[@stdlib/regexp/filename-posix]: https://github.com/stdlib-js/regexp-filename-posix/tree/umd/tree/umd
 
-[@stdlib/regexp/filename-windows]: https://github.com/stdlib-js/regexp-filename-windows/tree/umd
+[@stdlib/regexp/filename-windows]: https://github.com/stdlib-js/regexp-filename-windows/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
