@@ -204,8 +204,8 @@ parts = reFilename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' ).slice();
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/regexp/filename-posix`][@stdlib/regexp/filename-posix]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a POSIX filename.</span>
--   <span class="package-name">[`@stdlib/regexp/filename-windows`][@stdlib/regexp/filename-windows]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a Windows filename.</span>
+-   <span class="package-name">[`@stdlib/regexp-filename-posix`][@stdlib/regexp/filename-posix]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a POSIX filename.</span>
+-   <span class="package-name">[`@stdlib/regexp-filename-windows`][@stdlib/regexp/filename-windows]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a Windows filename.</span>
 
 </section>
 
