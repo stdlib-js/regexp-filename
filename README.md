@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+reFilename = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-filename/tags). For example,
+
+```javascript
 reFilename = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@v0.1.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var reFilename = require( 'path/to/vendor/umd/regexp-filename/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -175,7 +180,7 @@ var parts = reFilename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' ).slice();
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 var RE_FILENAME = reFilename();
