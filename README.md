@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reFilename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-filename/tags). For example,
+
+```javascript
 import reFilename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@v0.2.1-deno/mod.js';
+import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@deno/mod.js';
 ```
 
 #### reFilename( \[platform] )
@@ -154,7 +159,7 @@ var parts = reFilename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' ).slice();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reFilename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@v0.2.1-deno/mod.js';
+import reFilename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-filename@deno/mod.js';
 var RE_FILENAME = reFilename();
 
 // Assuming a POSIX platform...
